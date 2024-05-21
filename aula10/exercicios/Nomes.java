@@ -15,6 +15,7 @@ public class Nomes {
         for (int i = 0; i < nomes.length; i++) {
             if (procurado.equals(nomes[i])) {
                 achou = true;
+                break;
             }
         }
 
@@ -23,6 +24,7 @@ public class Nomes {
         } else {
             System.out.println("Não achei");
         }
+
         entrada.close();
 
     }
